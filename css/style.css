@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background: #009FFF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ec2F4B, #009FFF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+      font-weight: 400;
+      overflow: hidden;
+        font-family: 'Bungee';
+        user-select: none;
+}
+:focus {
+    outline: 0px;
+}
+.mainPage {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 25px 0px;
+    height: 100vh;
+}
+section.Header.flex {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+button.btn {
+    padding: 13px 34px;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+       letter-spacing: 2px;
+       text-transform: uppercase;
+    font-family: 'Bungee';
+   cursor: pointer;
+}
+.numberBetween {
+    color: #fff;
+    font-size: 25px;
+}
+.Question h4 {
+    font-size: 55px;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    width: 10%;
+    margin: 0 auto;
+    border-radius: 5px;
+        z-index: 1030;
+    position: relative;
+}
+.img-responsive {
+    max-width: 100%;
+}
+.text-center {
+    text-align: center;
+}
+.Question {
+    position: relative;
+}
+
+/* .Question:before {
+    content: '';
+    position: absolute;
+    height: 0px;
+    width: 100%;
+    border: 1px dotted #fff;
+    top: 50%;
+} */
+
+.playArea {
+    margin-top: 50px;
+}
+input#number {
+    display: block;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin: 25px auto;
+    color: #fff;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    width: 25%;
+    font-family: 'Bungee';
+}
+.playArea {
+    margin: 50px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form#PlayerBoard {
+    text-align: center;
+}
+.flex-50 {
+    flex:0 50%;
+}
+p.message {
+    color: #fff;
+    font-size: 25px;
+}
+
+p.label-score {
+    color: #fff;
+    font-size: 2opx;
+}
+
+p.label-highscore {
+    color: #fff;
+    font-size: 20px;
+}
+.copywrite h5 {
+     color: #fff;
+    font-size: 25px;
+}
+section.footer.text-center {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
+#error {
+display: none;
+}
+.winner {
+    display: none;
+}
+.winner.active {
+    display: block;
+}
+.winner.active {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* background-color: #fff; */
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ec2F4B, #009FFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.winner.active h2 {
+    color: #fff;
+    line-height: 40px;
+}
+
+h6.lastscroe {
+    color: #fff;
+    font-size: 30px;
+    margin: 0;
+}
+body.blur:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: #ebebeb7a;
+}
+.againBtn {
+    position: relative;
+}
