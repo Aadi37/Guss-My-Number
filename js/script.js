@@ -62,7 +62,7 @@ const fromSubmit = (e) => {
 
 // ✅ Reset game on “Play Again”
 playAgainBtn.addEventListener('click', () => {
-  intailScore = 5;
+  intailScore = 10;
   score.textContent = intailScore;
   randomNumber = Math.floor(Math.random() * 10) + 1;
 
